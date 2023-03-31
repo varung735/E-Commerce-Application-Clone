@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="w-full sticky top-0 z-50 bg-[#111111] ">
       <nav
-        className={`max-w-7xl mx-auto min-h-[20vh] lg:min-h-fit py-6 flex justify-between lg:justify-center items-center  gap-4 transition-all ease-in duration-500 ${
+        className={`max-w-7xl mx-auto  py-6 flex justify-between lg:justify-center items-center  gap-4 transition-all ease-in duration-500 ${
           extendNavbar ? "pb-44" : "pb-6"
         }`}
       >
@@ -62,7 +62,7 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`lg:static  w-full lg:w-auto min-h-[20vh]  lg:min-h-fit absolute  left-0  transition-all ease-in duration-500 z-[-1] lg:z-auto bg-[#111111] ${
+          className={`lg:static  w-full lg:w-auto min-h-[20vh]  lg:min-h-fit absolute  left-0  transition-all ease-in duration-500  bg-[#111111] ${
             extendNavbar ? "top-20" : "top-[-135%]"
           } `}
         >
