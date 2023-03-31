@@ -65,19 +65,19 @@ const Navbar = () => {
           <div className="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-8 ml-8">
             <Link
               to="/"
-              className="cursor-pointer text-gray-300 hover:text-white active:text-green-500  duration-500  "
+              className="cursor-pointer text-gray-300 hover:text-white active:text-green-500  duration-300  "
             >
               Home
             </Link>
             <Link
               to="/categories"
-              className="cursor-pointer  text-gray-300 hover:text-white active:text-green-500  duration-500  "
+              className="cursor-pointer  text-gray-300 hover:text-white active:text-green-500  duration-300  "
             >
               Categories
             </Link>
             <Link
               to="/products"
-              className="cursor-pointer  text-gray-300 hover:text-white active:text-green-500  duration-500  "
+              className="cursor-pointer  text-gray-300 hover:text-white active:text-green-500  duration-300  "
             >
               Products
             </Link>
