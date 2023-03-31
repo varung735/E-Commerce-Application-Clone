@@ -15,7 +15,11 @@ const Navbar = () => {
 
   return (
     <div className="w-full sticky top-0 z-50 bg-[#111111] ">
-      <nav className="max-w-7xl mx-auto py-6 flex justify-between lg:justify-center items-center  gap-4">
+      <nav
+        className={`max-w-7xl mx-auto min-h-[20vh] lg:min-h-fit py-6 flex justify-between lg:justify-center items-center  gap-4 transition-all ease-in duration-500 ${
+          extendNavbar ? "pb-44" : "pb-6"
+        }`}
+      >
         <h1 className=" text-2xl md:text-3xl text-gray-300 font-roboto px-6x lg:px-14 ml-2 cursor-pointer ">
           ClickTo<span className="text-green-500">Cart</span>
         </h1>
